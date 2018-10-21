@@ -30,7 +30,7 @@ can be accessed over this link while running the application : http://localhost:
 		Assuming you have a collection of users set in memory, call GET method URI : http://localhost:8080/users/user/1 Where 1 is the user ID (you can change it)
 	Delete a user:
 		Call DELETE method URI : http://localhost:8080/users/delete/1   where 1 is the user ID you want to delete.
-	Adding a user:
+	Adding or Modifying a user:
 		call POST method URI : http://localhost:8080/users/save where in the POSTMAN body insert your JSON like {"id": 5, "firstName":"Diana","lastName":"Angelo","nickName":"dangelo","password":"pass","email":"d.a@gmail.com","country":"uk"} - for an existing user with the ID = 5 or {"firstName":"Diana","lastName":"Angelo","nickName":"dangelo","password":"pass","email":"d.a@gmail.com","country":"uk"} for a new User, the ID generates automatically.
 
 # CONSOLE and LOGS
